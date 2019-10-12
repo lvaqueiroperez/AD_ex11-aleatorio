@@ -18,7 +18,7 @@ public class Ex11_aleatorio {
      */
     //USAR LA API !!!
     /*
-     Este ejercicio nos permite saber como, en registros de la misma longitud,
+     Este ejercicio nos permite saber como, en registros aleatorios de la misma longitud,
      podemos leer datos sin importar su posición, leemos yendo directamente a la posición,
      no leemos todo lo anterior como antes
      La única condición es que todos los registros/campos cumplan la misma longitud
@@ -63,7 +63,7 @@ public class Ex11_aleatorio {
          (n-1) * 30; n posicion que queramos y 30 un registro completo
         
          */
-        //hay que usar readcHar y readInt
+        //hay que usar readchar y readInt
         filerandom.seek((2 - 1) * 30);
 
         String codigo = "";
